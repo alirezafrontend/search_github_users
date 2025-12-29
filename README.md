@@ -1,58 +1,99 @@
-🔍 Search GitHub Users
-A modern and responsive GitHub users search application built with React, Apollo Client, GraphQL, Recharts, shadcn/ui, and Tailwind CSS.
-This app allows users to search for GitHub profiles in real-time, view detailed information, and visualize user statistics with interactive charts.
-🔹 Built with: React, Apollo Client, GraphQL, Recharts, shadcn/ui, Tailwind CSS, Vite, JavaScript
+# 🔍 GitHub User Search & Analytics App
 
-🚀 Features
-✔️ Fully responsive UI optimized for mobile, tablet, and desktop.
+A production-ready frontend application for searching GitHub users and visualizing key profile insights.  
+This project demonstrates real-world usage of GraphQL, data visualization, and modern UI architecture in a scalable React application.
 
-✔️ Real-time search for GitHub users using GitHub GraphQL API.
+**Tech Stack:** React, GraphQL, Recharts, shadcn/ui, Tailwind CSS
 
-✔️ Detailed user profile view with avatar, bio, followers, following, location, and repositories.
+---
 
-✔️ Interactive charts for user stats (stars, forks, languages, contributions) using Recharts.
+## 🎯 Project Goal
 
-✔️ Beautiful and accessible UI components powered by shadcn/ui.
+The main goal of this project is to showcase:
+- Efficient data fetching with GraphQL
+- Clean and maintainable component architecture
+- Meaningful data visualization
+- Professional UI/UX using modern design systems
 
-✔️ Clean, modern design built with Tailwind CSS.
+This project simulates real-world scenarios commonly found in production frontend applications.
 
-✔️ Efficient data fetching and caching with Apollo Client.
+---
 
-✔️ Easy to extend and customize for new features.
+## 🚀 Key Features
 
+- GitHub user search with optimized GraphQL queries
+- Scalable and clean React architecture
+- Interactive charts using Recharts
+- Reusable UI components with shadcn/ui
+- Fully responsive and accessible UI
+- Ready for future extension (pagination, caching, theming)
 
-🛠️ Technologies Used
-✔️ React – For building the user interface.
+---
 
-✔️ Apollo Client – For efficient GraphQL queries and state management.
+## 🧠 Technical Highlights
 
-✔️ GraphQL – For powerful data fetching from GitHub API.
+### GraphQL-first Approach
+Only required fields are fetched, reducing over-fetching and improving performance.
 
-✔️ Recharts – For responsive and customizable data visualization.
+### Data Visualization
+User data is transformed into meaningful insights using charts.
 
-✔️ shadcn/ui – For modern, accessible, and reusable components.
+### Modern UI System
+Tailwind CSS combined with shadcn/ui for consistent and scalable design.
 
-✔️ Tailwind CSS – For fast and responsive styling.
+### Production-Level Structure
+Feature-based folder structure with reusable hooks and clear separation of concerns.
 
-✔️ Vite – For lightning-fast development and builds.
+---
 
+## 🛠️ Technologies Used
 
-🎥 Live Demo
-🔗 Watch Demo
-(لینک واقعی دمو رو بعد از deploy جایگزین کن)
+- React
+- GraphQL
+- Recharts
+- shadcn/ui
+- Tailwind CSS
+- JavaScript (ES6+)
 
-📸 Screenshots
-Search Page
-User Profile
-Charts View
-(چند اسکرین‌شات از اپت بگیر، توی repo آپلود کن و لینک‌هاشون رو اینجا بذار)
+---
 
-👨‍💻 Developer
-Alireza Hasanpour
-📅 December 29 2025
-💼 Frontend Developer
-📲 Contact Me:
-LinkedIn
-Instagram
+## 🎥 Live Demo
 
-🚀 Made with ❤️ by Alireza Hasanpour
+🔗 **[Watch Demo](https://search-github-users-alpha.vercel.app/ "Live Dem")**
+
+---
+
+## 📸 Screenshots
+
+![App Screenshot](https://github.com/user-attachments/assets/8d0ae166-9c5b-4f3d-97b7-a82f77703f9e)
+
+![App Screenshot](https://github.com/user-attachments/assets/8d0ae166-9c5b-4f3d-97b7-a82f77703f9e)
+
+![App Screenshot](https://github.com/user-attachments/assets/8d0ae166-9c5b-4f3d-97b7-a82f77703f9e)
+
+---
+
+## 💼 Why This Project Matters
+
+This project reflects my ability to:
+- Build real-world frontend applications
+- Work with modern APIs (GraphQL)
+- Design scalable UI systems
+- Convert raw data into valuable user insights
+- Write clean, maintainable code
+
+---
+
+## 👨‍💻 Developer
+
+**Alireza Hasanpour**  
+Frontend Developer (React / Next.js)  
+2025
+
+### Contact Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alireza-hasanpour-9ab4a732b)  
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/alireza_hasanpour_frontend) 
+
+---
+
+Built with passion and attention to real-world frontend standards 🚀
