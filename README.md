@@ -1,73 +1,58 @@
-# React + TypeScript + Vite
+🔍 Search GitHub Users
+A modern and responsive GitHub users search application built with React, Apollo Client, GraphQL, Recharts, shadcn/ui, and Tailwind CSS.
+This app allows users to search for GitHub profiles in real-time, view detailed information, and visualize user statistics with interactive charts.
+🔹 Built with: React, Apollo Client, GraphQL, Recharts, shadcn/ui, Tailwind CSS, Vite, JavaScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+✔️ Fully responsive UI optimized for mobile, tablet, and desktop.
 
-Currently, two official plugins are available:
+✔️ Real-time search for GitHub users using GitHub GraphQL API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✔️ Detailed user profile view with avatar, bio, followers, following, location, and repositories.
 
-## React Compiler
+✔️ Interactive charts for user stats (stars, forks, languages, contributions) using Recharts.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✔️ Beautiful and accessible UI components powered by shadcn/ui.
 
-## Expanding the ESLint configuration
+✔️ Clean, modern design built with Tailwind CSS.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+✔️ Efficient data fetching and caching with Apollo Client.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+✔️ Easy to extend and customize for new features.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🛠️ Technologies Used
+✔️ React – For building the user interface.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+✔️ Apollo Client – For efficient GraphQL queries and state management.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+✔️ GraphQL – For powerful data fetching from GitHub API.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+✔️ Recharts – For responsive and customizable data visualization.
+
+✔️ shadcn/ui – For modern, accessible, and reusable components.
+
+✔️ Tailwind CSS – For fast and responsive styling.
+
+✔️ Vite – For lightning-fast development and builds.
+
+
+🎥 Live Demo
+🔗 Watch Demo
+(لینک واقعی دمو رو بعد از deploy جایگزین کن)
+
+📸 Screenshots
+Search Page
+User Profile
+Charts View
+(چند اسکرین‌شات از اپت بگیر، توی repo آپلود کن و لینک‌هاشون رو اینجا بذار)
+
+👨‍💻 Developer
+Alireza Hasanpour
+📅 December 29 2025
+💼 Frontend Developer
+📲 Contact Me:
+LinkedIn
+Instagram
+
+🚀 Made with ❤️ by Alireza Hasanpour
