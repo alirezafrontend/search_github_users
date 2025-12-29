@@ -65,11 +65,8 @@ Feature-based folder structure with reusable hooks and clear separation of conce
 
 ## 📸 Screenshots
 
-![App Screenshot](https://github.com/user-attachments/assets/8d0ae166-9c5b-4f3d-97b7-a82f77703f9e)
-
-![App Screenshot](https://github.com/user-attachments/assets/8d0ae166-9c5b-4f3d-97b7-a82f77703f9e)
-
-![App Screenshot](https://github.com/user-attachments/assets/8d0ae166-9c5b-4f3d-97b7-a82f77703f9e)
+![App Screenshot](https://github.com/user-attachments/assets/c7cdb9cd-e7df-4c1f-8899-5657ff1e988d)
+![App Screenshot](https://github.com/user-attachments/assets/9404f7d0-51b7-4ec2-a295-a28d76f6bdf7)
 
 ---
 
