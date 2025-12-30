@@ -1,4 +1,4 @@
-# 🔍 GitHub User Search & Analytics App
+# 🔍 GitHub User Search
 
 A production-ready frontend application for searching GitHub users and visualizing key profile insights.  
 This project demonstrates real-world usage of GraphQL, data visualization, and modern UI architecture in a scalable React application.
