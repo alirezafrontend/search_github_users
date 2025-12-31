@@ -6,6 +6,7 @@ import StatsContainer from "./StatsContainer";
 import ForkedRepos from "../charts/ForkedRepos";
 import PopularRepos from "../charts/PopularRepos";
 import UsedLanguages from "../charts/UsedLanguages";
+import Loading from "./Loading";
 
 type UserProfileProps = {
   user: string;
@@ -17,7 +18,7 @@ export default function UserProfile({ user }: UserProfileProps) {
   });
 
   if (loading) {
-    return <h2>Loading...</h2>;
+    return <Loading />;
   }
 
   if (error) {
